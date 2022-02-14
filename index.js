@@ -1,4 +1,4 @@
-let input = 40
+let input = Math.floor(Math.random() * 1000) + 1
 let number = document.getElementById("number")
 number.textContent = input
 let result = document.getElementById("result-one")
